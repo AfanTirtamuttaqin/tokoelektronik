@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="index.html" class="logo"
+        ><i class="fa-solid fa-bolt"></i> Electro<span>Shop</span></a
+      >
+      <nav class="navbar-nav">
+        <a href="index.html">Home</a><a href="products.html">Produk</a
+        ><a href="categories.html">Kategori</a><a href="about.html">Tentang</a
+        ><a class="active" href="contact.html">Kontak</a>
+      </nav>
+      <div class="navbar-icons">
+        <a href="cart.html" class="icon-link"
+          ><i class="fa-solid fa-cart-shopping"></i
+          ><span class="cart-count">0</span></a
+        ><button id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </header>
+    <section class="page-header">
+      <p class="eyebrow">CUSTOMER SERVICE</p>
+      <h1>Hubungi <span>Kami</span></h1>
+    </section>
+    <section class="section contact-grid">
+      <div>
+        <h2>Butuh bantuan?</h2>
+        <p>
+          Silakan kirim pertanyaan melalui formulir. Form ini merupakan simulasi
+          front-end.
+        </p>
+        <div class="contact-info">
+          <p><i class="fa-solid fa-location-dot"></i> Pati, Indonesia</p>
+          <p><i class="fa-solid fa-phone"></i> +62 896-5609-5516</p>
+          <p><i class="fa-solid fa-envelope"></i> tirtamutaqin@.com</p>
+        </div>
+      </div>
+      <form id="contact-form" class="contact-form">
+        <input required placeholder="Nama lengkap" /><input
+          required
+          type="email"
+          placeholder="Email"
+        /><input placeholder="Subjek" /><textarea
+          required
+          rows="6"
+          placeholder="Pesan"
+        ></textarea
+        ><button class="btn" type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+    <footer>
+    </footer>
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

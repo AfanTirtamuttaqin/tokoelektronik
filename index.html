@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ElectroShop </title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="index.html" class="logo"
+        ><i class="fa-solid fa-bolt"></i> Electro<span>Shop</span></a
+      >
+      <nav class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Produk</a>
+        <a href="categories.html">Kategori</a>
+        <a href="about.html">Tentang</a>
+        <a href="contact.html">Kontak</a>
+      </nav>
+      <div class="navbar-icons">
+        <button id="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <a href="cart.html" class="icon-link"
+          ><i class="fa-solid fa-cart-shopping"></i
+          ><span class="cart-count">0</span></a
+        >
+        <button id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </header>
+
+    <div class="search-box">
+      <input
+        id="search-input"
+        type="search"
+        placeholder="Cari produk elektronik..."
+      />
+      <button id="close-search"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">ELECTRONIC SALE 2026</p>
+        <h1>Teknologi Modern <span>Untuk Kebutuhanmu</span></h1>
+        <p>
+          Temukan laptop, smartphone, audio, smartwatch, kamera, dan berbagai
+          perangkat elektronik berkualitas.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn" href="products.html"
+            >Belanja Sekarang <i class="fa-solid fa-arrow-right"></i
+          ></a>
+          <a class="btn-outline" href="categories.html">Lihat Kategori</a>
+        </div>
+        <div class="hero-info">
+          <div>
+            <i class="fa-solid fa-truck-fast"></i><span>Gratis Ongkir</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-shield-halved"></i><span>Garansi Produk</span>
+          </div>
+          <div>
+            <i class="fa-solid fa-headset"></i><span>Support 24/7</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <p>KENAPA KAMI?</p>
+        <h2>Belanja <span>Lebih Nyaman</span></h2>
+      </div>
+      <div class="feature-grid">
+        <div class="feature">
+          <i class="fa-solid fa-circle-check"></i>
+          <h3>Produk Terpilih</h3>
+          <p>Produk elektronik berkualitas untuk kebutuhan sehari-hari.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-tags"></i>
+          <h3>Harga Kompetitif</h3>
+          <p>Dapatkan promo menarik dan harga yang bersahabat.</p>
+        </div>
+        <div class="feature">
+          <i class="fa-solid fa-lock"></i>
+          <h3>Transaksi Aman</h3>
+          <p>Keranjang dan pesanan tersimpan dengan aman di browser.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark-section">
+      <div class="section-title">
+        <p>PRODUK FAVORIT</p>
+        <h2>Pilihan <span>Minggu Ini</span></h2>
+      </div>
+      <div id="featured-products" class="product-grid"></div>
+      <div class="center">
+        <a href="products.html" class="btn">Lihat Semua Produk</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-grid">
+        <div>
+          <a class="logo" href="index.html"
+            ><i class="fa-solid fa-bolt"></i> Electro<span>Shop</span></a
+          >
+          <p>Toko elektronik modern untuk kebutuhan teknologi Anda.</p>
+        </div>
+        <div>
+          <h3>Menu</h3>
+          <a href="products.html">Produk</a
+          ><a href="categories.html">Kategori</a
+          ><a href="about.html">Tentang</a>
+        </div>
+        <div>
+          <h3>Kategori</h3>
+          <a href="products.html?category=laptop">Laptop</a
+          ><a href="products.html?category=smartphone">Smartphone</a
+          ><a href="products.html?category=audio">Audio</a>
+        </div>
+        <div>
+          <h3>Kontak</h3>
+          <p>Pati, Indonesia</p>
+          <p>+62 896-5609-55516</p>
+          <p>tirtamutaqin@.com</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produk</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="index.html" class="logo"
+        ><i class="fa-solid fa-bolt"></i> Electro<span>Shop</span></a
+      >
+      <nav class="navbar-nav">
+        <a href="index.html">Home</a
+        ><a class="active" href="products.html">Produk</a
+        ><a href="categories.html">Kategori</a><a href="about.html">Tentang</a
+        ><a href="contact.html">Kontak</a>
+      </nav>
+      <div class="navbar-icons">
+        <button id="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i></button
+        ><a href="cart.html" class="icon-link"
+          ><i class="fa-solid fa-cart-shopping"></i
+          ><span class="cart-count">0</span></a
+        ><button id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </header>
+    <div class="search-box">
+      <input
+        id="search-input"
+        type="search"
+        placeholder="Cari produk..."
+      /><button id="close-search"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <section class="page-header">
+      <p class="eyebrow">ELECTROSHOP</p>
+      <h1>Semua<span>Produk</span></h1>
+      <p>Pilih perangkat teknologi sesuai kebutuhan Anda.</p>
+    </section>
+    <section class="section">
+      <div class="toolbar">
+        <input id="product-search" placeholder="Cari produk..." /><select
+          id="category-filter">
+          <option value="all">Semua kategori</option>
+          <option value="laptop">Laptop</option>
+          <option value="smartphone">Smartphone</option>
+          <option value="audio">Audio</option>
+          <option value="smartwatch">Smartwatch</option>
+          <option value="camera">Kamera</option></select>
+        <select id="sort-filter">
+          <option value="default">Urutkan</option>
+          <option value="low">Harga terendah</option>
+          <option value="high">Harga tertinggi</option>
+        </select>
+      </div>
+      <div id="product-list" class="product-grid"></div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
